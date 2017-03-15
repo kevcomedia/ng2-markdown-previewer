@@ -1,5 +1,12 @@
 # Ng2MarkdownPreviewer
 
+## User stories:
+
+- I can type GitHub-flavored markdown into a textarea.
+- I can see a preview of the output of my markdown that is updated as I type.
+
+---
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-rc.2.
 
 ## Development server
