@@ -1,3 +1,4 @@
-<h1>
-  {{title}}
-</h1>
+<h1>Markdown Previewer</h1>
+
+<textarea #editor cols="30" rows="10" (input)="0"></textarea>
+<div id="preview" [innerHTML]="render(editor.value)"></div>
