@@ -1,4 +1,41 @@
 <h1>Markdown Previewer</h1>
 
-<textarea #editor cols="30" rows="10" (input)="0"></textarea>
+<textarea #editor cols="30" rows="10" (input)="0">
+# This is markdown
+### And this is some text
+
+---
+
+I'm a paragraph
+
+I'm a paragraph with *italicized* text.
+
+I'm a paragraph with **bold** text.
+
+I'm a paragraph __*with both*__!
+
+~~This sucks~~
+
+Look ma, a [link](https://youtu.be/dQw4w9WgXcQ)!
+
+- Lists are awesome!
+- Totally agree
+- You know what's even more awesome?
+ - Nested lists!
+ - Yay!
+
+
+1. Numbered lists are cool too.
+2. Number 2.
+3. Awesome
+
+> This is a fancy quote. Are you inspired yet?
+
+```
+I can even code!
+<p>Look ma, code!</p>
+```
+
+I can code `a little`.
+</textarea>
 <div id="preview" [innerHTML]="render(editor.value)"></div>
